@@ -13,12 +13,13 @@ let rec print_matrix = function
     print_string "\n";
     print_matrix t
 
-let rec nth_acc (acc: int) (i: int) = function
-  | [] -> None
-  | h :: t when i = acc -> Some h
-  | h :: t -> nth_acc (acc + 1) i t
-
-let nth i l = nth_acc 0 i l
+let nth i l = 
+  let rec nth_acc (acc: int) (i: int) = function
+    | [] -> None
+    | h :: t when i = acc -> Some h
+    | h :: t -> nth_acc (acc + 1) i t
+  in
+    nth_acc 0 i l
 let int_of_nth i l = match nth i l with
   | None -> 0
   | Some v -> v
@@ -27,11 +28,12 @@ let list_of_nth i l = match nth i l with
   | Some v -> v
 let matrix_nth r c l = list_of_nth r l |> int_of_nth c
 
-let rec count_acc acc = function
-| [] -> acc
-| h :: t -> count_acc (acc + 1) t
-
-let count l = count_acc 0 l
+let count l = 
+  let rec count_acc acc = function
+    | [] -> acc
+    | h :: t -> count_acc (acc + 1) t
+  in
+    count_acc 0 l
 
 let get_nrows l = count l
 
@@ -39,18 +41,19 @@ let rec get_ncolumns (l: matrix) = match nth 0 l with
   | None -> 0
   | Some v -> count v
 
-let rec make_list_acc r c nrows ncolumns (p : int -> int -> int -> int -> int) = match c with
-  | x when x = ncolumns -> []
-  | x -> p r c nrows ncolumns :: make_list_acc r (c + 1) nrows ncolumns p
+let rec make_list r nrows ncolumns p = 
+  let rec make_list_acc r c nrows ncolumns (p : int -> int -> int -> int -> int) = match c with
+    | x when x = ncolumns -> []
+    | x -> p r c nrows ncolumns :: make_list_acc r (c + 1) nrows ncolumns p
+  in
+    make_list_acc r 0 nrows ncolumns p
 
-let rec make_list r nrows ncolumns p = make_list_acc r 0 nrows ncolumns p
-
-let rec make_matrix_acc r nrows ncolumns p = match r with
-| x when x = nrows -> []
-| x -> make_list r nrows ncolumns p :: make_matrix_acc (r + 1) nrows ncolumns p
-
-let make_matrix nrows ncolumns p = make_matrix_acc 0 nrows ncolumns p
-
+let make_matrix nrows ncolumns p = 
+  let rec make_matrix_acc r nrows ncolumns p = match r with
+    | x when x = nrows -> []
+    | x -> make_list r nrows ncolumns p :: make_matrix_acc (r + 1) nrows ncolumns p
+  in
+    make_matrix_acc 0 nrows ncolumns p
 
 
 (* 1: A function zeroes to construct a matrix of size n×m filled with zeros. *)

@@ -29,7 +29,7 @@ let explode str =
 (* Converts a list of chars to a string *)
 let rec implode chars =
   match chars with
-    [] -> ""
+    | [] -> ""
     | h::t ->  string_of_char h ^ (implode t)
 
 let rec rev = function
