@@ -1,0 +1,79 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/brainfuck_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	helloworld.b[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/helloworld.b[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Brainfuck$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Brainfuck$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Brainfuck.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Brainfuck.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Brainfuck.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Brainfuck.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Environment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Environment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BrainfuckInterpreter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/BrainfuckInterpreter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BrainfuckInterpreter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/BrainfuckInterpreter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Environment.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Environment.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BrainfuckInterpreter.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/BrainfuckInterpreter.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Loop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Loop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Loop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Loop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IncrementPointer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/IncrementPointer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IncrementPointer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/IncrementPointer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Program.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Program$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Print.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Print.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Print$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Print$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BrainfuckParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/BrainfuckParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BrainfuckParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/BrainfuckParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IncrementData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/IncrementData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IncrementData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/IncrementData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecrementData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/DecrementData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecrementData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/DecrementData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecrementPointer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/DecrementPointer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecrementPointer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/DecrementPointer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Input.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Input.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Input$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Input$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Loop.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Loop.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IncrementPointer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/IncrementPointer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Program.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Program.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Print.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Print.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BrainfuckParser.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/BrainfuckParser.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	IncrementData.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/IncrementData.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Command.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Command.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecrementData.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/DecrementData.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecrementPointer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/DecrementPointer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Input.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes/Input.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

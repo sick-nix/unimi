@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(~run, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0msbt server started at local:///home/nicolae/.sbt/1.0/server/cabe68a0724cd9a17789/sock[0m
+[0m[[0m[0mdebug[0m] [0m[0mWriting bsp connection file[0m
+[0m[[0m[0minfo[0m] [0m[0mstarted sbt server[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E121] Pattern Match Warning: /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/src/main/scala/BrainfuckInterpreter.scala:17:13 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m17 |[0m        [33mcase[0m _ => [33mthrow[0m [33mnew[0m IllegalArgumentException()[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m             ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mUnreachable case except for [31mnull[0m (if this is intentional, consider writing [33mcase[0m [31mnull[0m => instead).[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/src/main/scala/BrainfuckParser.scala:34:4 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m34 |[0m    [33mcase[0m [31m">"[0m => IncrementPointer()[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m    ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    It would fail on pattern case: _: String[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

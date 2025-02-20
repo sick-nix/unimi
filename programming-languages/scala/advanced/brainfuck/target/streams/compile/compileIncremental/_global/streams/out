@@ -1,0 +1,34 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 26 products, 3 sources, 2 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Brainfuck.scala, ${BASE}/src/main/scala/BrainfuckInterpreter.scala, ${BASE}/src/main/scala/BrainfuckParser.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/BrainfuckInterpreter.scala, ${BASE}/src/main/scala/BrainfuckParser.scala), unmodified = ...),Set(${BASE}/target/scala-3.3.4/classes/BrainfuckParser$.class, ${BASE}/target/scala-3.3.4/classes/Environment.class, ${BASE}/target/scala-3.3.4/classes/Program.class, ${BASE}/target/scala-3.3.4/classes/BrainfuckParser.class, ${BASE}/target/scala-3.3.4/classes/Print.class, ${BASE}/target/scala-3.3.4/classes/PrintState.class, ${BASE}/target/scala-3.3.4/classes/IncrementPointer.class, ${BASE}/target/scala-3.3.4/classes/BrainfuckInterpreter$.class, ${BASE}/target/scala-3.3.4/classes/DecrementData.class, ${BASE}/target/scala-3.3.4/classes/Command.class, ${BASE}/target/scala-3.3.4/classes/Input.class, ${BASE}/target/scala-3.3.4/classes/DecrementPointer.class, ${BASE}/target/scala-3.3.4/classes/Brainfuck.class, ${BASE}/target/scala-3.3.4/classes/IncrementData.class, ${BASE}/target/scala-3.3.4/classes/BrainfuckInterpreter.class, ${BASE}/target/scala-3.3.4/classes/Loop.class),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/BrainfuckInterpreter.scala, ${BASE}/src/main/scala/BrainfuckParser.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(${BASE}/target/scala-3.3.4/classes/BrainfuckParser$.class, ${BASE}/target/scala-3.3.4/classes/Environment.class, ${BASE}/target/scala-3.3.4/classes/Program.class, ${BASE}/target/scala-3.3.4/classes/BrainfuckParser.class, ${BASE}/target/scala-3.3.4/classes/Print.class, ${BASE}/target/scala-3.3.4/classes/PrintState.class, ${BASE}/target/scala-3.3.4/classes/IncrementPointer.class, ${BASE}/target/scala-3.3.4/classes/BrainfuckInterpreter$.class, ${BASE}/target/scala-3.3.4/classes/DecrementData.class, ${BASE}/target/scala-3.3.4/classes/Command.class, ${BASE}/target/scala-3.3.4/classes/Input.class, ${BASE}/target/scala-3.3.4/classes/DecrementPointer.class, ${BASE}/target/scala-3.3.4/classes/Brainfuck.class, ${BASE}/target/scala-3.3.4/classes/IncrementData.class, ${BASE}/target/scala-3.3.4/classes/BrainfuckInterpreter.class, ${BASE}/target/scala-3.3.4/classes/Loop.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(DecrementData, Environment, Loop, DecrementPointer, Print, Command, PrintState, BrainfuckInterpreter, IncrementPointer, BrainfuckParser, Program, Input, IncrementData)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(${BASE}/src/main/scala/BrainfuckParser.scala, ${BASE}/src/main/scala/Brainfuck.scala, ${BASE}/src/main/scala/BrainfuckInterpreter.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 3 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: DecrementData, Environment, Loop, DecrementPointer, Print, Command, PrintState, BrainfuckInterpreter, IncrementPointer, BrainfuckParser, Program, Input, IncrementData[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding PrintState by Command[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding IncrementPointer by Command[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Input by Command[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding IncrementData by Command[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/nicolae/.var/app/com.jetbrains.IntelliJ-IDEA-Community/cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.3.4/scala3-sbt-bridge-3.3.4.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 751abf4f for Scala Compiler version 3.3.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/target/scala-3.3.4/classes:/home/nicolae/.var/app/com.jetbrains.IntelliJ-IDEA-Community/cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.4/scala3-library_3-3.3.4.jar:/home/nicolae/.var/app/com.jetbrains.IntelliJ-IDEA-Community/cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_3/2.4.0/scala-parser-combinators_3-2.4.0.jar:/home/nicolae/.var/app/com.jetbrains.IntelliJ-IDEA-Community/cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.830687721 s[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m

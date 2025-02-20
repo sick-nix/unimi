@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E121] Pattern Match Warning: /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/src/main/scala/BrainfuckInterpreter.scala:16:13 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m16 |[0m        [33mcase[0m _ => [33mthrow[0m [33mnew[0m IllegalArgumentException()[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m             ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mUnreachable case except for [31mnull[0m (if this is intentional, consider writing [33mcase[0m [31mnull[0m => instead).[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: /home/nicolae/Documents/University/Study Material/Linguaggi di Programmazione/scala/brainfuck/src/main/scala/BrainfuckParser.scala:32:4 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m32 |[0m    [33mcase[0m [31m">"[0m => IncrementPointer()[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m    ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m    It would fail on pattern case: _: String[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
